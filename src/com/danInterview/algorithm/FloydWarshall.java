@@ -60,7 +60,9 @@ public class FloydWarshall {
         List<String> result = constructResult(currency);
         if(result==null)
         {
-            System.out.println("Error no arbitrage path found for "+currency);
+            System.out.println(
+                    "Error no arbitrage path found for "+currency
+            );
             return;
         }
 
